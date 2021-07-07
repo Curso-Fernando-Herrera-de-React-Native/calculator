@@ -9,12 +9,14 @@ export const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 50,
     backgroundColor: styleVariables.lighButton,
-    marginHorizontal: 10
+    marginHorizontal: 10,
+    marginBottom: 20,
   },
 
   text: {
     color: styleVariables.light,
     textAlign: "center",
-    fontSize: 24
+    fontSize: 24,
+    fontWeight: "800"
   }
 })
