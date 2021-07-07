@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "commit": "git add . && cz && git push origin main",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
@@ -40,5 +41,10 @@
       "json",
       "node"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
