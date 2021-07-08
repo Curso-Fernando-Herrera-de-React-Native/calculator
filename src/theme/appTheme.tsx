@@ -21,7 +21,8 @@ export const styles = StyleSheet.create({
   result: {
     fontSize: 60,
     textAlign: 'right',
-    color: styleVariables.light
+    color: styleVariables.light,
+    marginBottom: 20
   },
 
   oldResult: {
